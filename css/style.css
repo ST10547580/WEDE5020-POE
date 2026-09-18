@@ -1,0 +1,71 @@
+body{
+background-color: aquamarine ;
+color: rgb(11, 9, 59);
+
+font-family: Arial, Helvetica, sans-serif;
+ margin: 0;
+  padding: 0;
+
+}
+
+/*-- Adapted from https://www.w3schools.com/css/css_navbar_horizontal.asp#gsc.tab=0 */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:  rgb(59, 9, 59);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover:not(.active) {
+  background-color: #000000;
+}
+
+ul li a.active {
+  background-color: aquamarine ;
+  color: black;
+}
+
+
+
+
+
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(226, 43, 43);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   box-shadow: 5px 7px 15px 0px rgba(0, 0, 0, 0.08);
+   border-radius: 8px; 
+}
+
+.listoffers{
+    background-color: aliceblue;
+}
+
+.container{
+width: 500px;
+height: 350px;
+border: 2px solid black;
+background-color: greenyellow;
+margin: 50px 10px ; /* 4 value shorthand (Top, Right, Bottom, Left) */
+padding: 20px;
+}
+
